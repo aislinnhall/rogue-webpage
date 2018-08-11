@@ -1,0 +1,114 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+}
+
+ul, li {
+  color: #77a466;
+  list-style-type: none;
+}
+
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.section-1, .section-2, .section-3 {
+  margin: 0 auto;
+  width: 358px;
+  height: 210px;
+  float: left;
+  padding: 0px 20px;
+  border-top: 1px solid #dedbdc;
+  border-bottom: 1px solid #dedbdc;
+}
+
+/***** HEADER *****/
+
+h1 {
+  width: 700px;
+  padding: 40px 0px;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 23px;
+  float: left;
+}
+
+#title {
+  color: #77a466;
+}
+
+nav ul li {
+    padding: 60px 10px 20px 10px;
+    float: left;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+/***** MAIN *****/
+
+#main img#hero-image {
+  border-top: 5px solid #77a466;
+  border-bottom: 5px solid #77a466;
+}
+
+#reviews {
+  border-left: 1px solid #dedbdc;
+  border-right: 1px solid #dedbdc;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 23px;
+  color: #77a466;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+h4 {
+  font-size: 12px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+#specials {
+  padding: 0;
+}
+
+#specials li {
+  padding: 10px 0px;
+}
+
+.section-2 {
+  border-left: 1px solid #dedbdc;
+  border-right: 1px solid #dedbdc;
+}
+
+/***** FOOTER *****/
+
+footer {
+  padding: 10px 0px;
+}
+
+footer h3 {
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 200px;
+}
+
+footer h3 span {
+  color: #77a466;
+  font-family: 'Dancing Script', cursive;
+  text-transform: lowercase;
+  font-size: 22px;
+}
